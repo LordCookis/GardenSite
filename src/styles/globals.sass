@@ -1,0 +1,321 @@
+body
+  padding: 0px
+  margin: 0px
+  background-color: #1E5603
+  font-family: 'Verdana'
+  &::placeholder
+    text-align: center
+    color: #80D357
+  &::-webkit-scrollbar
+    width: 12px
+  &::-webkit-scrollbar-track
+    background: #395c29
+    border-radius: 0px 10px 10px 0px
+  &::-webkit-scrollbar-thumb
+    background-color: #80D357
+    border-radius: 10px
+
+a
+  text-decoration: none !important
+
+.NavBar
+  padding: 10px
+  display: flex
+  justify-content: space-around
+  background: #4A7336
+  font-size: 25px
+  .Link
+    color: #fff5ea 
+    transition: 200ms
+    &:hover
+      color: #4EBB19
+
+.Loading
+  top: 0px
+  left: 0px
+  height: 100vh
+  width: 100vw
+  display: flex
+  justify-content: center
+  align-items: center
+  color: #fff5ea
+  font-family: 'Verdana'
+  font-size: 100px
+  background-color: #000000
+  position: fixed
+  z-index: 9999
+
+.MainPage
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  .Object
+    margin: 10px
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    background: #4A7336
+    border-radius: 10px
+    color: #fff5ea 
+    transition: 200ms
+    &>img
+      border-radius: 10px 10px 0px 0px
+      object-fit: cover
+    .ObjectText
+      margin: 5px
+      display: flex
+      flex-direction: column
+      align-items: center
+      font-size: 15px
+      .ObjectSpan
+        margin: 5px
+    &:hover
+      color: #4EBB19
+
+.ObjectPage
+  margin: 10px
+  padding: 10px
+  display: flex
+  flex-direction: row
+  justify-content: space-evenly
+  .СhapterDiv
+    margin-left: 10px 
+    display: flex
+    align-items: center
+    .SpanСhapter
+      width: 175px
+      color: #fff5ea
+      font-family: 'Verdana'
+      font-size: 40px
+    .InputСhapter
+      width: 450px
+      display: flex
+      text-align: center
+      background-color: #304a8b00
+      border: none
+      color: #fff5ea
+      font-family: 'Verdana'
+      font-size: 40px
+      transition: 200ms
+      outline: none
+      &::placeholder
+        color: #80D357
+  .Textarea
+    height: 750px
+    width: 600px
+    padding: 10px
+    margin: 10px
+    display: flex
+    text-align: justify
+    background-color: #4A7336
+    border: none
+    border-radius: 10px 
+    color: #fff5ea
+    font-family: 'Verdana'
+    font-size: 20px
+    transition: 200ms
+    outline: none
+    resize: none
+    &::placeholder
+      color: #80D357
+    &::-webkit-scrollbar
+      width: 12px
+    &::-webkit-scrollbar-track
+      background: #395c29
+      border-radius: 0px 10px 10px 0px
+    &::-webkit-scrollbar-thumb
+      background-color: #80D357
+      border-radius: 10px
+  .RightDiv
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  .ExitDiv
+    display: flex
+    justify-content: flex-end
+    .Button
+      width: 200px
+      padding: 10px
+      margin: 10px
+      display: flex
+      justify-content: center
+      background-color: #395c29
+      border: none
+      border-radius: 10px 
+      color: #fff5ea
+      font-size: 40px
+      transition: 200ms
+      outline: none
+      &:hover
+        color: #80D357
+  .InfoDiv
+    margin-top: 20px 
+    display: flex
+    flex-direction: column
+    align-items: center
+    .ImageDiv
+      border: 10px
+      &>img
+        border-radius: 10px
+        object-fit: cover
+    .InputName
+      width: 1100px
+      padding: 10px
+      display: flex
+      text-align: center
+      background-color: #304a8b00
+      border: none
+      border-radius: 10px 
+      color: #fff5ea
+      font-family: 'Verdana'
+      font-size: 35px
+      transition: 200ms
+      outline: none
+      &::placeholder
+        color: #80D357
+    .AdminPanel
+      display: flex
+      .InputImage
+        height: 40px
+        width: 440px
+        padding: 10px
+        margin: 10px
+        display: flex
+        justify-content: center
+        background-color: #395c29
+        border: none
+        border-radius: 10px 
+        color: #fff5ea
+        font-size: 30px
+        transition: 200ms
+        outline: none
+        &:hover
+          color: #80D357
+        &::before
+          content: ""
+      .Button
+        height: 60px
+        width: 300px
+        padding: 10px
+        margin: 10px
+        display: flex
+        justify-content: center
+        background-color: #395c29
+        border: none
+        border-radius: 10px 
+        color: #fff5ea
+        font-size: 35px
+        transition: 200ms
+        outline: none
+        cursor: pointer
+        &:hover
+          color: #80D357
+
+.AddObjectPage
+  margin: 5px
+  padding: 10px
+  display: flex
+  flex-direction: column
+  align-items: center
+  .Span
+    margin-bottom: 10px
+    color: #fff5ea
+    font-size: 40px
+  .Input
+    width: 1000px
+    padding: 10px
+    margin: 10px
+    display: flex
+    text-align: center
+    background-color: #4A7336
+    border: none
+    border-radius: 10px 
+    color: #fff5ea
+    font-family: 'Verdana'
+    font-size: 25px
+    transition: 200ms
+    outline: none
+    &::placeholder
+      color: #80D357
+  .Textarea
+    height: 475px
+    width: 1000px
+    padding: 10px
+    margin: 10px
+    display: flex
+    text-align: justify
+    background-color: #4A7336
+    border: none
+    border-radius: 10px 
+    color: #fff5ea
+    font-family: 'Verdana'
+    font-size: 25px
+    transition: 200ms
+    outline: none
+    resize: none
+    &::placeholder
+      text-align: center
+      color: #80D357
+    &::-webkit-scrollbar
+      width: 12px
+    &::-webkit-scrollbar-track
+      background: #395c29
+      border-radius: 0px 10px 10px 0px
+    &::-webkit-scrollbar-thumb
+      background-color: #80D357
+      border-radius: 10px
+  .Button
+    width: 250px
+    padding: 10px
+    margin: 10px
+    display: flex
+    justify-content: center
+    background-color: #395c29
+    border: none
+    border-radius: 10px 
+    color: #fff5ea
+    font-size: 40px
+    transition: 200ms
+    outline: none
+    cursor: pointer
+    &:hover
+      color: #4EBB19
+
+.LogRegPage
+  margin-top: 20px 
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  .Input
+    width: 600px
+    padding: 10px
+    margin: 10px
+    display: flex
+    text-align: center
+    background-color: #4A7336	
+    border: none
+    border-radius: 10px 
+    color: #fff5ea
+    font-family: 'Verdana'
+    font-size: 40px
+    transition: 200ms
+    outline: none
+    &::placeholder
+      color: #80D357
+  .Button
+    width: 620px
+    padding: 10px
+    margin: 10px
+    display: flex
+    justify-content: center
+    background-color: #395c29
+    border: none
+    border-radius: 10px 
+    color: #fff5ea
+    font-size: 40px
+    transition: 200ms
+    outline: none
+    cursor: pointer
+    &:hover
+      color: #4EBB19
